@@ -1,0 +1,6 @@
+framework module YMMYPodSlienceFramework {
+  umbrella header "YMMYPodSlienceFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,7 +7,8 @@
 //
 
 #import "YMMYViewController.h"
-
+#import "TestViewController.h"
+#import "YHManagerView.h"
 @interface YMMYViewController ()
 
 @end
@@ -17,7 +18,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    TestViewController *vc = [[TestViewController alloc] init];
+    vc.dissBlock = ^(NSString * _Nonnull stringID) {
+        
+    };
+    YHManagerView *manager = [[YHManagerView alloc] initWithSuperview:self andPresentviewController:vc];
+    manager.dissBlock = ^(NSString * _Nonnull stringID) {
+        NSLog(@"选中的ID----%@",stringID);
+    };
+    [manager show];
 }
 
 - (void)didReceiveMemoryWarning

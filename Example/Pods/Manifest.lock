@@ -1,0 +1,16 @@
+PODS:
+  - YMMYPodSlienceFramework (0.1.0)
+
+DEPENDENCIES:
+  - YMMYPodSlienceFramework (from `../`)
+
+EXTERNAL SOURCES:
+  YMMYPodSlienceFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YMMYPodSlienceFramework: 8447fa38d80c17c7c372a0cf3d32490a59b1e9a6
+
+PODFILE CHECKSUM: db775d6f48322ada3f3ba34997b77db844d2279b
+
+COCOAPODS: 1.6.0.beta.2

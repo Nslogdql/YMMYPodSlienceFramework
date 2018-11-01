@@ -1,0 +1,6 @@
+framework module Pods_YMMYPodSlienceFramework_Tests {
+  umbrella header "Pods-YMMYPodSlienceFramework_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
