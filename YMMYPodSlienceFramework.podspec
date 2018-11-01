@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YMMYPodSlienceFramework"
-  spec.version      = "2.0.0"
+  spec.version      = "3.0.0"
   spec.summary      = "A short description of YMMYPodSlienceFramework."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 A short description of YMMYPodSlienceFramework. A short description of YMMYPodSlienceFramework.
                    DESC
 
-  spec.homepage     = "https://github.com/Nslogdql/YMMYPoPVC"
+  spec.homepage     = "https://github.com/Nslogdql/YMMYPodSlienceFramework"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ A short description of YMMYPodSlienceFramework. A short description of YMMYPodSl
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Nslogdql/YMMYPoPVC.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Nslogdql/YMMYPodSlienceFramework.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
