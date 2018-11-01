@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YMMYPodSlienceFramework_Example' do
+  pod 'YMMYPodSlienceFramework', :path => '../'
+
+  target 'YMMYPodSlienceFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
